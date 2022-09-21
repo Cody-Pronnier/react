@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-dotenv && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -42,11 +42,5 @@
   },
   "devDependencies": {
     "netlify-cli": "^11.8.1"
-  },
-  "react-dotenv": {
-    "whitelist": [
-      "ID_SITE_NETLIFY",
-      "TOKEN_NETLIFY"
-    ]
   }
 }
